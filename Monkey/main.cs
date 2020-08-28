@@ -9,9 +9,7 @@
     {
         static void Main(string[] args)
         {
-
             flag.Parse(args);
-
 
             if (flag.RunType == flag.runType.repl)
             {
@@ -22,7 +20,7 @@
             }
             else
             {
-                    runFile.Start(args[flag.ArgsFileIndex]);
+                runFile.Start(args[flag.ArgsFileIndex]);
             }
         }
     }
