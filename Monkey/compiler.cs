@@ -440,7 +440,7 @@
                 /*
                 case TokenType.LT: // a < b == !(a >= b)
                     emit(Opcode.OpGreaterThanEqual);
-                    emit(Opcode.OpBang); // this is better caled NOT
+                    emit(Opcode.OpBang);
                     break;
 
                 case TokenType.LT_EQ: // a <= b == !(a  > b)
