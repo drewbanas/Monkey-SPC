@@ -42,7 +42,7 @@
             Compiler.InitParser(l);
             Compiler.New();
 
-            error err = Compiler.ParseProgram();
+            error err = Compiler.CompileProgram();
 
             if (Compiler.ParseErrors().Count != 0)
             {

@@ -37,7 +37,7 @@
                 Compiler.InitParser(l);
                 Compiler.NewWithState(ref symbolTable, constants);
 
-                error err = Compiler.ParseProgram();
+                error err = Compiler.CompileProgram();
 
                 if (Compiler.ParseErrors().Count != 0) // parse errors
                 {

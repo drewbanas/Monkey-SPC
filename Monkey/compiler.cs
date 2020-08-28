@@ -166,7 +166,7 @@
             errors.Add(msg);
         }
 
-        public static error ParseProgram()
+        public static error CompileProgram()
         {
 
             while (!curTokenIs(TokenType.EOF))
