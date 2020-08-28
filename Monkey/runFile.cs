@@ -2,10 +2,7 @@
 {
     using lexer;
     //using token;
-    using parse_rule;
-    //using ast;
     //using Object;
-    //using evaluator;
     using compiler;
     using vm;
     using util;
